@@ -12,20 +12,20 @@ ul {
 
 h1 {
   width: 50%;
-  text-align: center;
+  text-align:left;
   margin: auto;
   margin-top: 20px;
 }
 
 p {
   width: 50%;
-  text-align: center;
+  text-align:left;
   margin: auto;
   margin-top: 20px;
 }
 li {
   width: 50%;
-  text-align: center;
+  text-align:left;
   margin: auto;
 }
 
