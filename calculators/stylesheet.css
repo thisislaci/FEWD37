@@ -19,6 +19,7 @@ input {
 input[disabled] {
   border: 0;
 }
+
 .panel {
   margin-bottom: 100px;
 }
@@ -49,6 +50,7 @@ input[disabled] {
   left: 300px;
   top: 80px;
 }
+
 .circum {
   position: relative;
   height: 200px;
