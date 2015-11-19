@@ -27,12 +27,12 @@ p {
 ul{
   width: 560px;
   margin: auto;
-  margin-left: 394px;
+  /*margin-left: 394px;*/
 
 }
 
 li {
-  width: 560px;
+  /*width: 560px;*/
   text-align:left;
   margin: auto;
 }
