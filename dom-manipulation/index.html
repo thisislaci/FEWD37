@@ -113,6 +113,12 @@ body { font-family: sans-serif; }
   function makeBold(event) {
     event.preventDefault();
 
+    var willBeBold = document.querySelector('.will-be-bold');
+    willBeBold.classList.toggle('bold');
+
+    // willBeBold.classList.add('bold');
+    // willBeBold.classList.remove('bold');
+
     // When the button is clicked:                        --> already wired up above
     //  1. add the class "bold" using the element's classList
 
