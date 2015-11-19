@@ -6,7 +6,7 @@
     <title>GA Front-end Dev</title>
   </head>
   <body>
-    <img class="img-circle" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/p160x160/1238250_823137184368458_242082041_n.jpg?oh=6aaaa615a0b3f36f68d52d41db797c6e&oe=56F8ED2F&__gda__=1456496162_23ddb9ce215023e6dedcd78f2b048fc1">
+    <img class="img-circle" src="images/profile-pic-1.jpg" alt="images/profile-pic-3.jpg">
     <h1>Laci White</h1>
     <p> I’m a multidisciplinary designer, researcher, and project manager with a background in experiential marketing and startup operations. You can learn more about my work <a href="http://www.laciwhite.com">here.</a></p>
     <p>
@@ -29,21 +29,21 @@
         </a>
       </li>
       </ul>
+
+      <script>
+
+        var myImage = document.querySelector('img');
+
+        myImage.onclick = function() {
+          var mySrc = myImage.getAttribute('src');
+
+          if(mySrc === 'images/profile-pic-1.jpg') {
+            myImage.setAttribute('src', 'images/profile-pic-1.jpg');
+          } else {
+            myImage.setAttribute('src', 'images/profile-pic-3.jpg');
+          }
+        }
+
+      </script>
   </body>
-  <script type="text/javascript">
-
-//   // get the body element
-// var body = document.querySelector('body');
-//
-// // create an anchor element
-// var anchor = document.createElement('a');
-//
-// // set the href and text of the anchor element
-// anchor.setAttribute('href', 'http://avandamiri.com/fewd-37/');
-// anchor.textContent = 'FEWD-37';
-//
-// // add the anchor element to the body
-// body.appendChild(anchor);
-
-  </script>
 </html>
