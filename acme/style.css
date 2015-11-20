@@ -38,15 +38,14 @@ nav a {
 
 }
 
-ul {
+header ul {
   list-style-type: none;
   font-size: 16px;
 
 }
 
-li {
+header li {
   display: inline-block;
-
 
 }
 
@@ -73,6 +72,7 @@ main section {
   margin: 150px auto 0 auto;
   border-radius: 10px;
 }
+
 hr {
   width: 646px;
   margin-top: 50px;
@@ -93,3 +93,17 @@ main section button {
   background-color: white;
   border: solid 1px rgb(196, 196, 196);
 }
+
+form {
+  margin-top: 300px;
+  margin-left: 20%;
+
+}
+
+form ul {
+  display: block;
+  list-style: none;
+}
+ form li {
+   margin-bottom: .5em;
+ }
