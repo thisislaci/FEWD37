@@ -34,7 +34,7 @@ nav a {
   color: white;
   text-decoration: none;
   margin-right: 30px;
-  text-shadow: 0 1px 1px rgb(38, 48, 140);
+  text-shadow: 0 2px 2px rgb(38, 48, 140);
 
 }
 
@@ -95,15 +95,32 @@ main section button {
 }
 
 form {
-  margin-top: 300px;
+  /*margin-top: 300px;
   margin-left: 20%;
+  position: relative;*/
 
 }
 
 form ul {
-  display: block;
+  /*display: block;*/
   list-style: none;
+  padding-left: 0;
+  /*position: absolute;*/
 }
  form li {
    margin-bottom: .5em;
+   /*position: absolute;*/
  }
+
+ label {
+   /*display: block;*/
+   cursor: pointer;
+ }
+
+ /*.signup{
+   position: relative;
+ }*/
+
+/*input {
+  border-radius: 15%;
+}*/
