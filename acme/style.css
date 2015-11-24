@@ -102,25 +102,32 @@ form {
 }
 
 form ul {
-  /*display: block;*/
   list-style: none;
-  padding-left: 0;
-  /*position: absolute;*/
+  margin: 0px;
+  padding: 0px;
+
 }
  form li {
    margin-bottom: .5em;
-   /*position: absolute;*/
+
  }
 
  label {
-   /*display: block;*/
+   display: inline-block;
    cursor: pointer;
+   /*float: left;*/
+   padding: 3px;
+   width: 100px;
  }
 
- /*.signup{
-   position: relative;
- }*/
+ label.long {
+   width: auto;
+ }
 
-/*input {
-  border-radius: 15%;
+input.checkbox{
+  border-color: red;
+}
+
+/*.signup-input {
+position: relative;
 }*/

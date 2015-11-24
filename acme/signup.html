@@ -22,27 +22,30 @@
       <ul>
         <li>
           <label for="firstName">First Name</label>
-          <input tyoe="firstName" name="firstName" />
+          <input id="firstName" type="text" name="firstName" class="signup-input" placeholder="John"/>
+        </li>
         <li>
-          <li>
-            <label for="lastName">Last Name</label>
-            <input id="lastName" name="lastName" />
-          <li>
-            <li>
-              <label for="email">Email</label>
-              <input type="email" name="email" />
-            <li>
-              <li>
-                <label for="password">Pssword</label>
-                <input type="password" name="password" />
-              </li>
-              <li>
-                <label for="terms">Agree to Terms of Service</label>
-                <input type="checkbox" name="terms" id="terms"/>
-              <li>
-                <input type="submit" value="Sign up"/>
-              </li>
-            </ul>
+          <label for="lastName">Last Name</label>
+          <input id="lastName" type="text" name="lastName" class="signup-input" placeholder="Doe"/>
+        </li>
+        <li>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" class="signup-input" placeholder="john.doe@example.com" />
+        </li>
+        <li>
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" class="signup-input" />
+        </li>
+        <li>
+        <label class="long">
+            <input type="checkbox" name="terms" class="checkbox"/>
+            Agree to Terms of Service
+          </label>
+        </li>
+        <li>
+          <input type="submit" value="Sign up"/>
+        </li>
+      </ul>
     </form>
   </section>
 </main>
