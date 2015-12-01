@@ -1,0 +1,25 @@
+
+* {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+/*body {
+  margin: 0;
+
+}*/
+
+div .container {
+
+}
+
+button {
+  cursor: pointer;
+}
+
+label {
+   display: inline-block;
+   cursor: pointer;
+   padding: 3px;
+   /*width: auto;*/
+ }

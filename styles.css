@@ -1,5 +1,4 @@
-.img-circle {
-  /*border-radius: 50%;*/
+/*
   display: block;
   margin: auto;
   margin-top: 124px;
@@ -27,12 +26,12 @@ p {
 ul{
   width: 560px;
   margin: auto;
-  /*margin-left: 394px;*/
+
 
 }
 
 li {
-  /*width: 560px;*/
+
   text-align:left;
   margin: auto;
 }
@@ -41,6 +40,6 @@ body  {
   font-family: helvetica, sans-serif;
 }
 
-/*div.header {
+div.header {
   background-color: green;
 }*/
