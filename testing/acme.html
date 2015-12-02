@@ -9,17 +9,35 @@
       <script type="text/javascript">
         var body = document.body;
 
-        var header = document.createElement("header");  
+        var header = document.createElement("header");
         var nav = document.createElement("nav");
         var ul = document.createElement("ul");
         var li = document.createElement("li");
+        var li2 = document.createElement("li");
+        var products = document.createElement("a");
+        var signup = document.createElement("a");
+        var button = document.createElement("button");
         var image = document.createElement("img");
 
+        body.appendChild(header);
         header.appendChild(nav);
         header.appendChild(image);
         image.setAttribute("src", "images/acme-corp.jpg");
         nav.appendChild(ul);
         ul.appendChild(li);
+        ul.appendChild(li2);
+        signup.appendChild(button);
+        li.appendChild(products);
+        li2.appendChild(signup);
+        signup.appendChild(button);
+
+
+        button.textContent = "Signup";
+        products.textContent = "Products";
+
+        products.setAttribute("href", "https://en.wikipedia.org/wiki/Kats");
+
+
 
         var main = document.createElement("main");
         var section = document.createElement("section");
@@ -29,6 +47,22 @@
         var heading = document.createElement("h1");
         section.appendChild(heading);
         heading.textContent = "Welcome to ACME Corp";
+
+        var p = document.createElement("p");
+        section.appendChild(p);
+        p.textContent = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+        var p = document.createElement("p");
+        section.appendChild(p);
+        p.textContent = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+        var footer = document.createElement("footer");
+        var footerText = document.createElement("p");
+        body.appendChild(footer);
+        footer.appendChild(footerText);
+        footerText.textContent = "Copyright, 2015";
+
+
     </script>
 </body>
 </html>
