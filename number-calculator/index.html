@@ -31,7 +31,45 @@
 
 <script>
 
-// Your code goes here...
+  var op1 = document.querySelector(".first-operand", ".placeholder");
+  var op2 = document.querySelector(".second-operand", ".placeholder");
+
+  var plus = document.querySelector(".add-button", ".inverted-button").addEventListener("click", addition);
+  var subtract = document.querySelector(".subtract-button", ".inverted-button").addEventListener("click", subtraction);
+  var multiply = document.querySelector(".multiply-button", ".inverted-button").addEventListener("click", multiplication);
+  var divide = document.querySelector(".divide-button", ".inverted-button").addEventListener("click", division);
+
+  var result = document.querySelector(".result", ".placeholder");
+
+  function addition(event){
+    event.preventDefault();
+    result.value = +op1.value + +op2.value;
+
+
+  }
+
+  function subtraction(event){
+    event.preventDefault();
+
+    result.value = +op1.value - +op2.value;
+
+  }
+
+  function multiplication(event){
+    event.preventDefault();
+
+    result.value = +op1.value * +op2.value;
+
+  }
+
+  function division(event){
+    event.preventDefault();
+
+    result.value = +op1.value / +op2.value;
+
+  }
+
+
 
 </script>
 
