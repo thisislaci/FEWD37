@@ -1,4 +1,4 @@
-``<main>
+<main>
   <form id="new-todo-item-form">
     <input type="text" id="new-todo-item-input" placeholder="What do you need to do?">
     <button type="submit">Create</button>
@@ -28,13 +28,13 @@
 
   checkbox.setAttribute("type", "checkbox");
   span.textContent = input.value;
-  input.appendChild(span);
-  input.value = "";
 
   label.appendChild(checkbox);
   label.appendChild(span);
   li.appendChild(label);
   list.appendChild(li);
+
+  form.reset();
 }
 
 

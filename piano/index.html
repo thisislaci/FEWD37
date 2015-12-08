@@ -89,26 +89,25 @@ var howl = new Howl({
 
   document.addEventListener("keyup", playKey)
 
-  function playKey(event) {
-    // console.log(event);
-
-    switch(event.keyCode) {
-      case 67: howl.play("C");
-      case 68: howl.play("D");
-      case 69: howl.play("E");
-      case 70: howl.play("F");
-      case 71: howl.play("G");
-      case 65: howl.play("A");
-      case 66: howl.play("B");
-    }
-  }
-
   function play(event) {
     event.preventDefault();
 
     howl.play(event.target.id);
   }
 
+  function playKey(event) {
+    console.log(event);
+
+    switch(event.keyCode) {
+      case 67: howl.play("C"); break;
+      case 68: howl.play("D"); break;
+      case 69: howl.play("E"); break;
+      case 70: howl.play("F"); break;
+      case 71: howl.play("G"); break;
+      case 65: howl.play("A"); break;
+      case 66: howl.play("B"); break;
+    }
+  }
 
 
 
