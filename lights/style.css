@@ -1,0 +1,24 @@
+
+.light {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.light-stop.light-on {
+  background-color: red;
+}
+
+.light-slow.light-on {
+  background-color: yellow;
+}
+
+.triangle {
+    width: 0;
+  	height: 0;
+  	border-left: 50px solid transparent;
+  	border-right: 50px solid transparent;
+  	border-bottom: 100px solid red;
+
+}
