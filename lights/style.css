@@ -1,24 +1,41 @@
 
-.light {
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-  border-radius: 100%;
-}
+  * { box-sizing: border-box; }
 
-.light-stop.light-on {
-  background-color: red;
-}
+  .controls {
+    margin-bottom: 1em;
+  }
 
-.light-slow.light-on {
-  background-color: yellow;
-}
+  .stop-light {
+    width: 180px;
+    background-color: rgb(233, 196, 0);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .light {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: rgb(96, 80, 0);
+    border-radius: 100%;
+    border: 2px solid black;
+    border-top-width: 6px;
+    border-bottom-width: 1px;
+    box-shadow: inset 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 150ms;
+  }
 
-.triangle {
-    width: 0;
-  	height: 0;
-  	border-left: 50px solid transparent;
-  	border-right: 50px solid transparent;
-  	border-bottom: 100px solid red;
-
-}
+  .stop-light-stop .light-stop {
+    background-color: rgb(209, 43, 5);
+    box-shadow: 0 10px 40px rgba(209, 43, 5, 0.4);
+  }
+  .stop-light-slow .light-slow {
+    background-color: rgb(255, 240, 47);
+    box-shadow: 0 10px 40px rgba(255, 240, 47, 0.4);
+  }
+  .stop-light-go .light-go {
+    background-color: rgb(9, 204, 40);
+    box-shadow: 0 10px 40px rgba(9, 204, 40, 0.4);
+  }
