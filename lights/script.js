@@ -4,12 +4,10 @@ var stopLight = document.querySelector(".stop-light")
 var stopControl = document.querySelector(".control-stop");
 var slowControl = document.querySelector(".control-slow");
 var goControl = document.querySelector(".control-go");
-var cautionControl = document.querySelector(".control-caution");
 
 stopControl.addEventListener("click", stop);
 slowControl.addEventListener("click", slow);
 goControl.addEventListener("click", go);
-cautionControl.addEventListener("click", caution);
 
 function stop(event) {
   event.preventDefault();
