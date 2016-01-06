@@ -21,10 +21,12 @@ function resultsReceived(results) {
     }
 }
 
-function formSubmitted(event) {
+  function formSubmitted(event) {
   event.preventDefault();
   var url = "http://omdbapi.com/?s=" + $("#query").val();
   $.get(url, resultsReceived);
+
+  $("#movies").empty()
 
 }
 
