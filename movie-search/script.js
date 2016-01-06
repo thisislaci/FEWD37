@@ -11,8 +11,6 @@ function createMovie(movieTitle, id, year) {
 
   $("<div>").text(year).addClass("movie-release-date").appendTo(item);
 
-
-
 };
 
 function resultsReceived(results) {
@@ -29,6 +27,10 @@ function formSubmitted(event) {
   $.get(url, resultsReceived);
 
 }
+
+// $("submit").submit(function() {
+// $("#movies").empty();
+// });
 
 
 
